@@ -39,7 +39,7 @@
     }
 
     .logo {
-      width: 220px;
+      width: 230px;
       max-width: 80%;
       border-radius: 50%;
       margin-bottom: 20px;
@@ -66,6 +66,42 @@
       max-width: 1150px;
       margin: auto;
       padding: 60px 25px;
+    }
+
+    .problema {
+      background: white;
+      max-width: 100%;
+    }
+
+    .contenedor-problema {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .problema h2 {
+      text-align: center;
+      color: #0b5c2a;
+      font-size: 42px;
+    }
+
+    .texto-problema {
+      font-size: 22px;
+      line-height: 1.8;
+      color: #234;
+    }
+
+    .texto-destacado {
+      text-align: center;
+      font-size: 34px;
+      color: #0b5c2a;
+      font-weight: bold;
+      margin: 50px 0;
+    }
+
+    video {
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.2);
+      margin-top: 20px;
     }
 
     .grid {
@@ -120,6 +156,9 @@
       h1 { font-size: 36px; }
       .frase { font-size: 18px; }
       .hero { padding: 25px; }
+      .problema h2 { font-size: 32px; }
+      .texto-problema { font-size: 18px; }
+      .texto-destacado { font-size: 25px; }
       .galeria img { height: 240px; }
     }
   </style>
@@ -137,6 +176,32 @@
     </p>
   </div>
 </header>
+
+<section class="problema">
+  <div class="contenedor-problema">
+    <h2>¿Por qué existe Atlcaltli?</h2>
+
+    <p class="texto-problema">
+      Durante años hemos ensuciado el agua, la hemos usado como si fuera un recurso infinito
+      y muchas veces la hemos devuelto contaminada al entorno.
+    </p>
+
+    <p class="texto-problema">
+      En Atlcaltli creemos que ha llegado el momento de cambiar esa relación:
+      recuperar el agua, separar lo que la contamina y devolver cada elemento al lugar
+      donde pueda generar vida.
+    </p>
+
+    <p class="texto-destacado">
+      El agua que por años hemos ensuciado, es tiempo de limpiarla.
+    </p>
+
+    <video controls width="100%" poster="planta3.jpeg">
+      <source src="aguasucia.mp4" type="video/mp4">
+      Tu navegador no soporta video HTML5.
+    </video>
+  </div>
+</section>
 
 <section>
   <div class="grid">
